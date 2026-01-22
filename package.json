@@ -1,0 +1,23 @@
+{
+  "name": "com.nekoindie.nekounity.nav",
+  "displayName": "Neko Nav",
+  "version": "0.1.2",
+  "unity": "2021.3",
+  "description": "Lightweight grid navigation for Unity: BoardGrid (cell-to-cell) + Physics2D (tilemap/static prebake).",
+  "dependencies": {
+    "com.nekoindie.nekounity.lib": "1.9.19"
+  },
+  "keywords": [
+    "neko",
+    "navigation",
+    "pathfinding",
+    "grid",
+    "tilemap",
+    "2d",
+    "astar"
+  ],
+  "author": {
+    "name": "Nguyen Thanh Trung",
+    "url": "https://github.com/boobosua"
+  }
+}
