@@ -1,11 +1,11 @@
 {
   "name": "com.nekoindie.nekounity.nav",
   "displayName": "Neko Nav",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "unity": "2021.3",
   "description": "Lightweight grid navigation for Unity: BoardGrid (cell-to-cell) + Physics2D (tilemap/static prebake).",
   "dependencies": {
-    "com.nekoindie.nekounity.lib": "1.9.19"
+    "com.nekoindie.nekounity.lib": "2.1.0"
   },
   "keywords": [
     "neko",
