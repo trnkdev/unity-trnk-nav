@@ -223,5 +223,5 @@ public sealed class BoardMoveExample : MonoBehaviour
 
 ## Requirements
 
-- Unity 2021.3+
+- Unity 6+
 - NekoLib
