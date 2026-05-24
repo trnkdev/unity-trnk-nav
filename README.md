@@ -10,13 +10,13 @@ Lightweight grid navigation for Unity.
 1. Install TRnK.Toolkit:
 
 ```
-https://github.com/boobosua/unity-trnk-toolkit.git
+https://github.com/trnkdev/unity-trnk-toolkit.git
 ```
 
 2. Install TRnK.Nav:
 
 ```
-https://github.com/boobosua/unity-neko-nav.git
+https://github.com/trnkdev/unity-trnk-nav.git
 ```
 
 Package name: `com.trnkdev.unitynav`
