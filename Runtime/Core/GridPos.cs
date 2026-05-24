@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace NekoNav
+namespace TRnK.Nav
 {
     [Serializable]
     public readonly struct GridPos : IEquatable<GridPos>

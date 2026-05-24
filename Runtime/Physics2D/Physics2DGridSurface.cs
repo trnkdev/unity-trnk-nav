@@ -1,11 +1,11 @@
-using NekoLib.Logger;
-using NekoNav.Internals;
-using NekoNav.Internals.AStar;
-using NekoNav.Internals.Clearance;
+using TRnK.Logger;
+using TRnK.Nav.Internals;
+using TRnK.Nav.Internals.AStar;
+using TRnK.Nav.Internals.Clearance;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
-namespace NekoNav.Physics2D
+namespace TRnK.Nav.Physics2D
 {
     public sealed class Physics2DGridSurface : MonoBehaviour, IGridSurface
     {

@@ -1,4 +1,4 @@
-namespace NekoNav.Internals.AStar
+namespace TRnK.Nav.Internals.AStar
 {
     internal sealed class MinHeap
     {

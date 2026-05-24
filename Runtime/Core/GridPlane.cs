@@ -1,4 +1,4 @@
-namespace NekoNav
+namespace TRnK.Nav
 {
     public enum GridPlane
     {

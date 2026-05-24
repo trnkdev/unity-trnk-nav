@@ -1,4 +1,4 @@
-﻿# Neko Nav
+﻿# TRnK Nav
 
 Lightweight grid navigation for Unity.
 
@@ -7,28 +7,28 @@ Lightweight grid navigation for Unity.
 
 ## Installation (Unity Package Manager)
 
-1. Install NekoLib:
+1. Install TRnK.Toolkit:
 
 ```
-https://github.com/boobosua/unity-nekolib.git
+https://github.com/boobosua/unity-trnk-toolkit.git
 ```
 
-2. Install NekoNav:
+2. Install TRnK.Nav:
 
 ```
 https://github.com/boobosua/unity-neko-nav.git
 ```
 
-Package name: `com.nekoindie.nekounity.nav`
+Package name: `com.trnkdev.unitynav`
 
-> NekoNav uses NekoLib for logging (`NekoLib.Logger.Log`) and shared utilities/extensions.
+> TRnK.Nav uses TRnK.Toolkit for logging (`TRnK.Logger.Log`) and shared utilities/extensions.
 
 ## Logging
 
-NekoNav logs through `NekoLib.Logger.Log`.
+TRnK.Nav logs through `TRnK.Logger.Log`.
 
-- Logs appear in **Editor**, **Development builds**, or when `NEKOLIB_LOG` is defined.
-- In non-development player builds, logs may be compiled out (by design in NekoLib).
+- Logs appear in **Editor**, **Development builds**, or when `TRNK_LOG` is defined.
+- In non-development player builds, logs may be compiled out (by design in TRnK.Toolkit).
 
 ## Quick start (Physics2D)
 
@@ -69,8 +69,8 @@ Use this when your walkable space is mostly static (tilemap-based levels).
 ### Script usage example (click to move)
 
 ```csharp
-using NekoLib.Utilities;
-using NekoNav.Physics2D;
+using TRnK.Utilities;
+using TRnK.Nav.Physics2D;
 using UnityEngine;
 
 public sealed class ClickToMove : MonoBehaviour
@@ -120,7 +120,7 @@ Use this for dynamic boards (block puzzles, tactics grids, levels where cells ch
 
 ```csharp
 using System.Collections.Generic;
-using NekoNav.BoardGrid;
+using TRnK.Nav.BoardGrid;
 using UnityEngine;
 
 public sealed class BoardBootstrap : MonoBehaviour
@@ -158,7 +158,7 @@ public sealed class BoardBootstrap : MonoBehaviour
 
 ```csharp
 using System.Collections.Generic;
-using NekoNav.BoardGrid;
+using TRnK.Nav.BoardGrid;
 using UnityEngine;
 
 public sealed class ValidCellsFromMarkers : MonoBehaviour
@@ -180,7 +180,7 @@ public sealed class ValidCellsFromMarkers : MonoBehaviour
 ### Script usage example (move an agent)
 
 ```csharp
-using NekoNav.BoardGrid;
+using TRnK.Nav.BoardGrid;
 using UnityEngine;
 
 public sealed class BoardMoveExample : MonoBehaviour
@@ -224,4 +224,4 @@ public sealed class BoardMoveExample : MonoBehaviour
 ## Requirements
 
 - Unity 6+
-- NekoLib
+- TRnK.Toolkit

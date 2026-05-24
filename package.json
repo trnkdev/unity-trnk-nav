@@ -1,14 +1,14 @@
 {
-  "name": "com.nekoindie.nekounity.nav",
-  "displayName": "Neko Nav",
-  "version": "0.2.0",
+  "name": "com.trnkdev.unitynav",
+  "displayName": "TRnK Nav",
+  "version": "0.3.0",
   "unity": "2021.3",
   "description": "Lightweight grid navigation for Unity: BoardGrid (cell-to-cell) + Physics2D (tilemap/static prebake).",
   "dependencies": {
-    "com.nekoindie.nekounity.lib": "2.1.0"
+    "com.trnkdev.unitytoolkit": "2.5.0"
   },
   "keywords": [
-    "neko",
+    "trnk",
     "navigation",
     "pathfinding",
     "grid",

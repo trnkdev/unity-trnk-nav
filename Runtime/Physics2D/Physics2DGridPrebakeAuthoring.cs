@@ -1,9 +1,9 @@
-using NekoLib.Logger;
-using NekoNav.Internals;
+using TRnK.Logger;
+using TRnK.Nav.Internals;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
-namespace NekoNav.Physics2D
+namespace TRnK.Nav.Physics2D
 {
     public sealed class Physics2DGridPrebakeAuthoring : MonoBehaviour
     {

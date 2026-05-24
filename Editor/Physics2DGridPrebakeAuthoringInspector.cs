@@ -1,9 +1,9 @@
 #if UNITY_EDITOR
-using NekoNav.Physics2D;
+using TRnK.Nav.Physics2D;
 using UnityEditor;
 using UnityEngine;
 
-namespace NekoNav
+namespace TRnK.Nav
 {
     [CustomEditor(typeof(Physics2DGridPrebakeAuthoring))]
     public sealed class Physics2DGridPrebakeAuthoringInspector : Editor

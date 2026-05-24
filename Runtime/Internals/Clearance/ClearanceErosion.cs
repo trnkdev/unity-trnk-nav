@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace NekoNav.Internals.Clearance
+namespace TRnK.Nav.Internals.Clearance
 {
     internal static class ClearanceErosion
     {

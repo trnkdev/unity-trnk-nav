@@ -1,4 +1,4 @@
-namespace NekoNav.Internals.Smoothing
+namespace TRnK.Nav.Internals.Smoothing
 {
     internal static class GridRaycast
     {

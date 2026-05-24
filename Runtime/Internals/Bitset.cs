@@ -1,6 +1,6 @@
 using System;
 
-namespace NekoNav.Internals
+namespace TRnK.Nav.Internals
 {
     internal struct Bitset
     {

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace NekoNav
+namespace TRnK.Nav
 {
     public interface IGridSurface
     {

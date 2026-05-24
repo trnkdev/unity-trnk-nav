@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace NekoNav.Internals.AStar
+namespace TRnK.Nav.Internals.AStar
 {
     internal sealed class AStarSolver
     {

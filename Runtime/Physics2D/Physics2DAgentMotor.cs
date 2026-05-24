@@ -1,8 +1,8 @@
-using NekoLib.Extensions;
-using NekoNav.Internals.Smoothing;
+using TRnK.Extensions;
+using TRnK.Nav.Internals.Smoothing;
 using UnityEngine;
 
-namespace NekoNav.Physics2D
+namespace TRnK.Nav.Physics2D
 {
     [RequireComponent(typeof(Rigidbody2D))]
     [DisallowMultipleComponent]

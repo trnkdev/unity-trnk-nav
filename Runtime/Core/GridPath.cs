@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-namespace NekoNav
+namespace TRnK.Nav
 {
     public readonly struct GridPath : IEnumerable<GridPos>
     {

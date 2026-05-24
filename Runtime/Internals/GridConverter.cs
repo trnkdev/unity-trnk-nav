@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace NekoNav.Internals
+namespace TRnK.Nav.Internals
 {
     internal static class GridConverter
     {

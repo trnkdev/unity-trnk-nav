@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace NekoNav.BoardGrid
+namespace TRnK.Nav.BoardGrid
 {
     [DisallowMultipleComponent]
     public sealed class BoardGridAgentMotor : MonoBehaviour

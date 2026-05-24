@@ -1,11 +1,11 @@
 using System.Collections.Generic;
-using NekoLib.Extensions;
-using NekoLib.Logger;
-using NekoNav.Internals;
-using NekoNav.Internals.AStar;
+using TRnK.Extensions;
+using TRnK.Logger;
+using TRnK.Nav.Internals;
+using TRnK.Nav.Internals.AStar;
 using UnityEngine;
 
-namespace NekoNav.BoardGrid
+namespace TRnK.Nav.BoardGrid
 {
     public sealed class BoardGridSurface : MonoBehaviour, IGridSurface
     {

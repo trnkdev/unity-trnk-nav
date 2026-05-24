@@ -1,4 +1,4 @@
-namespace NekoNav.Internals
+namespace TRnK.Nav.Internals
 {
     internal sealed class GridData
     {
