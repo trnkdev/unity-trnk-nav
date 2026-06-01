@@ -1,11 +1,11 @@
 {
   "name": "com.trnkdev.unitynav",
   "displayName": "TRnK Nav",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "unity": "2021.3",
   "description": "Lightweight grid navigation for Unity: BoardGrid (cell-to-cell) + Physics2D (tilemap/static prebake).",
   "dependencies": {
-    "com.trnkdev.unitytoolkit": "2.5.0"
+    "com.trnkdev.unitytoolkit": "2.5.1"
   },
   "keywords": [
     "trnk",

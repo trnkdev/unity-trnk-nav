@@ -1,5 +1,6 @@
 #if UNITY_EDITOR
 using TRnK.Nav.Physics2D;
+using TRnK.Toolkit;
 using UnityEditor;
 using UnityEngine;
 
@@ -83,8 +84,7 @@ namespace TRnK.Nav
 
             var asset = ScriptableObject.CreateInstance<GridBakeAsset>();
             AssetDatabase.CreateAsset(asset, path);
-            AssetDatabase.SaveAssets();
-            AssetDatabase.Refresh();
+            EditorAssetUtils.SaveAndRefresh();
             EditorGUIUtility.PingObject(asset);
             return asset;
         }
@@ -92,8 +92,7 @@ namespace TRnK.Nav
         private static void MarkDirty(Object obj)
         {
             if (obj == null) return;
-            EditorUtility.SetDirty(obj);
-            AssetDatabase.SaveAssets();
+            EditorAssetUtils.MarkDirtyAndSave(obj);
         }
     }
 }
